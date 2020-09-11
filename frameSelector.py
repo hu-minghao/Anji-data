@@ -23,7 +23,8 @@ def set_up_argument(parser):
 
     return args
 
-def moveFile(fileDir,output_dir):
+def moveFile(fileDir,output_dir,sn):
+    picknumber = 0
     pathDir = os.listdir(fileDir)  # 取图片的原始路径
     os.makedirs(output_dir, exist_ok=True)
     if type(sn)==int:
@@ -37,6 +38,7 @@ def moveFile(fileDir,output_dir):
 
     for name in tqdm(sample):
         move_Dir, tar_Dir = Path(fileDir, name), Path(tarDir, name)
+        print(move_Dir,tar_Dir)
         shutil.move(move_Dir, tar_Dir)
     return
 
@@ -47,7 +49,8 @@ if __name__ == '__main__':
     fileDir = select_args.sourceFileDir  # 源图片文件夹路径
     tarDir = select_args.saveResultDir  # 移动到新的文件夹路径
     sn = select_args.select_number
-    moveFile(fileDir, tarDir)
+    print(fileDir,tarDir,sn)
+    moveFile(fileDir, tarDir, sn)
 
 
 
