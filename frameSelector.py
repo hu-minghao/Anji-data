@@ -1,4 +1,4 @@
-##深度学习过程中，需要制作训练集和验证集、测试集。
+##可以从图片中筛选出固定数量或者一定比例的图片
 
 import os, random, shutil
 import argparse
