@@ -7,6 +7,8 @@ from videotimer import Dater
 INTERVAL_CLIP = 100  # clip interval for extracting a frame (secs)
 INTERVAL_FRAME = 5 # time interval for extracting a frame (secs)
 
+# 统计收集到的clips日期和数量
+# 抽取固定数量图片
 
 def main():
     # The output dir for storing the extracted imgs

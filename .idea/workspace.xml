@@ -27,8 +27,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac635e05-0136-4532-a56c-faec991202a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extractor_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slect_pic_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extractor_mix.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractor_mix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractor_notime.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractor_notime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractor_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractor_step.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="8c2c34d9-fd24-4d0f-9c18-3353d9d97a0b" />
   <component name="ProjectId" id="1hLndiLkuZobDECVpbCmnNexIo8" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -56,10 +64,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageEngine" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.extractor_mix">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Anji-data" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Anji-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +88,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -93,6 +110,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -114,6 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractor_mix.py" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -123,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extractor_notime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="extractor_mixdir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anji-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +154,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractor_notime.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractor_mixdir.py" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extractor_step" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="select_tag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anji-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +176,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractor_step.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/select_tag.py" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="videoselector (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="slect_pic_name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anji-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +198,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videoselector.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slect_pic_name.py" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="videotimer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anji-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +220,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videotimer.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,22 +232,23 @@
     </configuration>
     <list>
       <item itemvalue="Python.Anji-data" />
-      <item itemvalue="Python.videoselector (1)" />
-      <item itemvalue="Python.extractor_step" />
-      <item itemvalue="Python.videotimer (1)" />
-      <item itemvalue="Python.extractor_notime" />
       <item itemvalue="Python.extractor_mix" />
+      <item itemvalue="Python.extractor_mixdir" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.select_tag" />
+      <item itemvalue="Python.slect_pic_name" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.slect_pic_name" />
+        <item itemvalue="Python.select_tag" />
+        <item itemvalue="Python.extractor_mixdir" />
         <item itemvalue="Python.extractor_mix" />
-        <item itemvalue="Python.extractor_step" />
-        <item itemvalue="Python.extractor_notime" />
-        <item itemvalue="Python.videotimer (1)" />
-        <item itemvalue="Python.videoselector (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
     <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,ALPHA_COMPARATOR" />
@@ -239,8 +263,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599799328886</updated>
+      <workItem from="1600948346999" duration="2002000" />
+      <workItem from="1600962171919" duration="7863000" />
+      <workItem from="1600994950131" duration="2869000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -283,22 +313,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600315206184" />
-    <state width="1345" height="232" key="GridCell.Tab.0.bottom" timestamp="1600333620057">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1601001191158">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1345" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600333620057" />
-    <state width="1345" height="232" key="GridCell.Tab.0.center" timestamp="1600333620057">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600411695583" />
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601001191158" />
+    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1601001191158">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1345" height="232" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600333620057" />
-    <state width="1345" height="232" key="GridCell.Tab.0.left" timestamp="1600333620057">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600411695583" />
+    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601001191158" />
+    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1601001191158">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1345" height="232" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600333620057" />
-    <state width="1345" height="232" key="GridCell.Tab.0.right" timestamp="1600333620057">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600411695583" />
+    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601001191158" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1601001191158">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1345" height="232" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600333620057" />
+    <state width="1345" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600411695583" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601001191158" />
     <state width="1345" height="37" key="GridCell.Tab.1.bottom" timestamp="1600247548545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -350,5 +384,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Anji_data$test.coverage" NAME="test Coverage Results" MODIFIED="1601001191149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/Anji_data$slect_pic_name.coverage" NAME="slect_pic_name Coverage Results" MODIFIED="1600999096389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/Anji_data$select_tag.coverage" NAME="select_tag Coverage Results" MODIFIED="1600970242875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
 </project>
