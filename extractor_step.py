@@ -4,15 +4,15 @@ import cv2
 from pathlib import Path
 from videotimer import Dater
 
-INTERVAL_CLIP = 100  # clip interval for extracting a frame (secs)
-INTERVAL_FRAME = 5 # time interval for extracting a frame (secs)
+INTERVAL_CLIP = 10  # clip interval for extracting a frame (secs)
+INTERVAL_FRAME = 1  # time interval for extracting a frame (secs)
 
 
 def main():
 
     # The location of the root directory to extract videos from
     root_dir = r"C:\video_clips"
-    select_camera = {'camera30','camera31','camera29','camera32'}
+    select_camera = {'camera30', 'camera31', 'camera29', 'camera32'}
     camera_date_select = Dater(root_dir).date
     for camera in camera_date_select:
         print('get clip from {} in {}'.format(camera, camera_date_select[camera]))
@@ -49,7 +49,7 @@ def main():
 
                             interval_frames = INTERVAL_FRAME * fps
 
-                            frame_no = -1
+                            frame_no = 0
                             while captured_video.isOpened():
                                 read_successful, frame = captured_video.read()
 
